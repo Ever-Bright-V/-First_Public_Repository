@@ -4,3 +4,14 @@
 
 #屏蔽文件夹 
 该屏蔽的文件夹/
+
+#使用通配符 例如 屏蔽所有 word 文件
+#先测试屏蔽 新版 word文件（docx dotx）
+*.do[ct]x
+
+#全部word文件
+*.do[ct]x
+*.doc
+
+#取反使用 不再屏蔽 新版word
+!*.do[ct]x
